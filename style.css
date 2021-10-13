@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+a {
+text-decoration: none;
+}
+
+.clear {
+    clear: left;
+  }
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 200px 0 200px 0;
+    /* background-image: url(https://drive.google.com/uc?id=1nBAFxHATL-BwuLS2X0jfXjA4KccmfiUS); */
+    background-image: url(assets/gunungrinjani.jpg);
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7; /* membuat transaparan*/
+    font-size: 45px;
+    letter-spacing: 3px; /* jarak antar huruf*/
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.btn-wrapper {
+    margin: 20px 0; /*jarak atas dan bawah*/
+}
+
+.btn-wrapper p {
+    margin: 10px 0; /*atas dan bawah*/
+}
+
+.signup {
+    background-color: #883628;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: #55acee;
+}
+
+/*utk tombol mulai belajar*/
+.btn {
+    padding: 12px 24px; /*atas bawah 12px dan kanan kiri 24px*/
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+/*berubah warna tombol ketika kursor diarahkan*/
+.btn:hover {
+    opacity: 1;
+}
+
+/*jarak ke kanan icon fb dan twitter*/
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    /* background-color: rgba(36, 114, 71, 0.9);  /*mengatur warna serta transaparansi background pada nav*/
+    /* Ubah position ke fixed, dan top ke 0 */
+    background-color: rgba(255, 255, 255, 0.9);
+    position:fixed;
+    top:0;
+    
+    /* Ubah z-index ke 10 supaya header ditempatkan diatas element tertentu*/
+    z-index: 10;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 20px;
+ }
+  
+.header-left {
+  line-height: 65px;
+  float: left;
+  text-transform: uppercase;
+}
+  
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+  
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: black;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+  
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-bottom: 4px solid black;
+}
+
+/* tulis CSS wisata dibawah */
+.lesson-wrapper-wisata {
+  position: relative;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+    top: -120px;
+    border-radius: 40px;
+  }
+  
+  .heading-wisata {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  /* .heading-wisata h2 {
+    font-weight: normal;
+  } */
+  
+  .lesson-wisata {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon-wisata {
+    position: relative;
+  }
+  
+  .lesson-icon-wisata p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size:20px;
+    font-weight: bold;
+  }
+  
+  .text-contents-wisata {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+
+/* tulis CSS Team kami dibawah */
+.lesson-wrapper-team {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading-team {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  /* .heading-wisata h2 {
+    font-weight: normal;
+  } */
+  
+  .lesson-team {
+    float: left;
+    width: 20%;
+  }
+  
+  .lesson-icon-team {
+    position: relative;
+  }
+  
+
+
+
+
+/* footer */
+footer {
+    /* background-color: #24333d; */
+    border-top: 1px solid #eee;
+    background-color: white;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+  }
+  
+/* message wrapper */
+.message-wrapper{
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.heading{
+  padding-top: 60px;
+    margin-bottom: 30px;
+    color: #5f5d60;
+}
+.heading h2{
+  font-weight: normal;
+}
+.heading h3{
+  font-weight: normal;
+}
+.message{
+  padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
